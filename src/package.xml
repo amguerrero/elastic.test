@@ -2,6 +2,19 @@
 <Package>
     <version>50.0</version>
     <types>
+        <members>EpicTriggerHandler</members>
+        <members>TicketTriggerHandler</members>
+        <members>TriggerHandler</members>
+        <members>TriggerInterface</members>
+        <members>TriggerRouter</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>EpicTrigger</members>
+        <members>TicketTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AssignmentRules</name>
@@ -72,6 +85,7 @@
         <members>Entitlement</members>
         <members>EntitlementContact</members>
         <members>EntityMilestone</members>
+        <members>Epic__c</members>
         <members>Event</members>
         <members>ExchangeUserMapping</members>
         <members>ExpressionFilter</members>
@@ -160,6 +174,7 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>Ticket__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
