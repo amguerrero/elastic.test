@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>TicketEpicTriggerHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TicketTriggerHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -1503,6 +1507,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Epic__c.Max_Priority__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Epic__c.Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2689,6 +2698,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Ticket__c.Epic__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Ticket__c.Priority__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

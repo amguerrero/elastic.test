@@ -187,6 +187,42 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Priority__c</fullName>
+        <defaultValue>&quot;Sev 3&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sev 0</fullName>
+                    <default>false</default>
+                    <label>Sev 0</label>
+                </value>
+                <value>
+                    <fullName>Sev 1</fullName>
+                    <default>false</default>
+                    <label>Sev 1</label>
+                </value>
+                <value>
+                    <fullName>Sev 2</fullName>
+                    <default>false</default>
+                    <label>Sev 2</label>
+                </value>
+                <value>
+                    <fullName>Sev 3</fullName>
+                    <default>false</default>
+                    <label>Sev 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Start_Date__c</fullName>
         <externalId>false</externalId>
         <label>Start Date</label>

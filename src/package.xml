@@ -3,6 +3,7 @@
     <version>50.0</version>
     <types>
         <members>EpicTriggerHandler</members>
+        <members>TicketEpicTriggerHandler</members>
         <members>TicketTriggerHandler</members>
         <members>TriggerHandler</members>
         <members>TriggerInterface</members>
@@ -11,6 +12,7 @@
     </types>
     <types>
         <members>EpicTrigger</members>
+        <members>TicketEpicTrigger</members>
         <members>TicketTrigger</members>
         <name>ApexTrigger</name>
     </types>
