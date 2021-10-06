@@ -240,6 +240,20 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Total_Estimated_Days_of_Work__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Total days of work under this epic</description>
+        <externalId>false</externalId>
+        <label>Total Estimated Days of Work</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <label>Epic</label>
     <nameField>
         <displayFormat>EPIC-{0000000}</displayFormat>

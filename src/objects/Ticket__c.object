@@ -187,6 +187,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Estimated_Days_of_Work__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Estimated days to finish this ticket</description>
+        <externalId>false</externalId>
+        <label>Estimated Days of Work</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Priority__c</fullName>
         <defaultValue>&quot;Sev 3&quot;</defaultValue>
         <externalId>false</externalId>

@@ -1521,6 +1521,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Epic__c.Total_Estimated_Days_of_Work__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.Description</field>
         <readable>false</readable>
@@ -2698,6 +2703,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Ticket__c.Epic__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Ticket__c.Estimated_Days_of_Work__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
